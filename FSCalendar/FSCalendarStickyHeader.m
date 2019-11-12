@@ -43,7 +43,7 @@
         self.titleLabel = label;
         
         view = [[UIView alloc] initWithFrame:CGRectZero];
-        view.backgroundColor = FSCalendarStandardLineColor;
+        view.backgroundColor = self.calendar.appearance.headerBottomBorderColor ?: FSCalendarStandardLineColor;
         [_contentView addSubview:view];
         self.bottomBorder = view;
         

@@ -189,6 +189,11 @@ typedef NS_OPTIONS(NSUInteger, FSCalendarCaseOptions) {
 @property (strong, nonatomic) UIColor  *borderSelectionColor;
 
 /**
+* The border color of the header bottom
+*/
+@property (strong, nonatomic) UIColor *headerBottomBorderColor;
+
+/**
  * The border radius, while 1 means a circle, 0 means a rectangle, and the middle value will give it a corner radius.
  */
 @property (assign, nonatomic) CGFloat borderRadius;
