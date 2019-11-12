@@ -396,6 +396,12 @@
     }
 }
 
+- (void)setHeaderBottomBorderColor:(UIColor *)headerBottomBorderColor {
+    if (![_headerBottomBorderColor isEqual:headerBottomBorderColor]) {
+        _headerBottomBorderColor = headerBottomBorderColor
+    }
+}
+
 - (void)setHeaderTitleColor:(UIColor *)color
 {
     if (![_headerTitleColor isEqual:color]) {
