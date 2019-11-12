@@ -38,6 +38,7 @@
         _headerTitleColor = FSCalendarStandardTitleTextColor;
         _headerDateFormat = @"MMMM yyyy";
         _headerMinimumDissolvedAlpha = 0.2;
+        _headerBottomBorderColor = FSCalendarStandardLineColor;
         _weekdayTextColor = FSCalendarStandardTitleTextColor;
         _caseOptions = FSCalendarCaseOptionsHeaderUsesDefaultCase|FSCalendarCaseOptionsWeekdayUsesDefaultCase;
         
@@ -68,6 +69,7 @@
         _borderRadius = 1.0;
         _eventDefaultColor = FSCalendarStandardEventDotColor;
         _eventSelectionColor = FSCalendarStandardEventDotColor;
+        
         
         _borderColors = [NSMutableDictionary dictionaryWithCapacity:2];
         
